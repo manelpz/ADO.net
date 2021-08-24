@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="ADONET_Samples.UserControls.DataReaderControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:ADONET_Samples.ViewModels"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+  <UserControl.Resources>
+    <vm:DataReaderViewModel x:Key="viewModel" />
+  </UserControl.Resources>
+  <Grid DataContext="{StaticResource viewModel}">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Label Style="{StaticResource titleText}"
+           Content="ADO.NET Data Reader Class" />
+    <WrapPanel Grid.Row="1"
+                Orientation="Horizontal">
+      <Button Content="DataReader"
+              Click="DataReader_Click"
+              Margin="4" />
+      <Button Content="Generic List"
+              Click="GenericList_Click" />
+      <Button Content="Using FieldValue()"
+              Click="UsingFieldValue_Click" />
+      <Button Content="Extension Methods"
+              Click="ExtensionMethods_Click" />
+      <Button Content="Multiple Result Sets"
+              Click="MultipleResultSets_Click" />
+    </WrapPanel>
+    <TextBox Grid.Row="2"
+             Grid.ColumnSpan="2"
+             Style="{StaticResource resultText}"
+             Text="{Binding Path=ResultText}" />
+    <DataGrid Grid.Row="3"
+              Grid.ColumnSpan="2"
+              ItemsSource="{Binding Path=Products}" />
+    <DataGrid Grid.Row="4"
+              Grid.ColumnSpan="2"
+              ItemsSource="{Binding Path=Categories}" />
+  </Grid>
+</UserControl>

@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="ADONET_Samples.UserControls.ConnectionControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:ADONET_Samples.ViewModels"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+  <UserControl.Resources>
+    <vm:ConnectionViewModel x:Key="viewModel" />
+  </UserControl.Resources>
+  <Grid DataContext="{StaticResource viewModel}">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Label Style="{StaticResource titleText}"
+           Content="ADO.NET Connection Class" />
+    <Label Grid.Row="1"
+           Grid.Column="0"
+           Content="Connection String" />
+    <TextBox Grid.Row="1"
+             Grid.Column="1"
+             Text="{Binding Path=ConnectionString}" />
+    <WrapPanel Grid.Row="2"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"
+               Orientation="Horizontal">
+      <Button Content="Open Connection (Windows Auth)"
+              Click="OpenConnectionWindowsAuth_Click" />
+      <Button Content="Open Connection (SQL Server Auth)"
+              Click="OpenConnectionSQLServerAuth_Click" />
+      <Button Content="Connection - Using Block"
+              Click="ConnectionUsingBlock_Click" />
+      <Button Content="Connection - With Errors"
+              Click="ConnectionWithErrors_Click" />
+      <Button Content="www.connectionstrings.com"
+              Click="ConnectionStringsDotCom_Click" />
+    </WrapPanel>
+    <TextBox Grid.Row="3"
+             Grid.Column="0"
+             Grid.ColumnSpan="2"
+             Style="{StaticResource resultText}"
+             Text="{Binding Path=ResultText}" />
+  </Grid>
+</UserControl>
