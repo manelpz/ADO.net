@@ -1,2 +1,2 @@
 # ADO.net
- ado examples
+ ado pluralsight examples
