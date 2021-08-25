@@ -8,7 +8,7 @@
  
 Course Overview		
 
-Why You Still Need to Know ADO.NET	Module Watched	
+Why You Still Need to Know ADO.NET	
 
 Connecting and Submitting Queries to a Database	Module Watched	
 
