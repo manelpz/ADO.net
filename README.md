@@ -10,7 +10,7 @@ Course Overview
 
 Why You Still Need to Know ADO.NET	
 
-Connecting and Submitting Queries to a Database	Module Watched	
+Connecting and Submitting Queries to a Database	
 
 Retrieve Data Quickly Using the SqlDataReader	Module Watched	
 
