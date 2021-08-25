@@ -15,7 +15,7 @@ Connecting and Submitting Queries to a Database	Module Watched
 Retrieve Data Quickly Using the SqlDataReader	Module Watched	
 
 Handling ADO.NET Exceptions	Module Watched	
-22m 30s	
+
 Disconnected Classes Are Useful	Module Watched	
 19m 30s	
 The Building Blocks of the DataTable	Module Watched	
