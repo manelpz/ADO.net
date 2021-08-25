@@ -3,7 +3,7 @@
  
  
  
- 
+ ***
  
  
 Course Overview		
@@ -12,13 +12,13 @@ Why You Still Need to Know ADO.NET
 
 Connecting and Submitting Queries to a Database	
 
-Retrieve Data Quickly Using the SqlDataReader	Module Watched	
+Retrieve Data Quickly Using the SqlDataReader	
 
-Handling ADO.NET Exceptions	Module Watched	
+Handling ADO.NET Exceptions		
 
-Disconnected Classes Are Useful	Module Watched	
+Disconnected Classes Are Useful	
 
-The Building Blocks of the DataTable	Module Watched	
+The Building Blocks of the DataTable	
 	
 Builder Classes Make It Easy to Work with ADO.NET		
 
