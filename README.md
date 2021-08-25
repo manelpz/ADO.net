@@ -17,7 +17,7 @@ Retrieve Data Quickly Using the SqlDataReader	Module Watched
 Handling ADO.NET Exceptions	Module Watched	
 
 Disconnected Classes Are Useful	Module Watched	
-19m 30s	
+
 The Building Blocks of the DataTable	Module Watched	
 11m 52s	
 Builder Classes Make It Easy to Work with ADO.NET		
