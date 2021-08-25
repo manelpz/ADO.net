@@ -21,5 +21,5 @@ Disconnected Classes Are Useful	Module Watched
 The Building Blocks of the DataTable	Module Watched	
 	
 Builder Classes Make It Easy to Work with ADO.NET		
-10m 13s	
+
 Making ADO.NET Easy to Use
