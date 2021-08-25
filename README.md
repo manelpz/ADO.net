@@ -13,7 +13,7 @@ Why You Still Need to Know ADO.NET	Module Watched
 Connecting and Submitting Queries to a Database	Module Watched	
 
 Retrieve Data Quickly Using the SqlDataReader	Module Watched	
-18m 30s	
+
 Handling ADO.NET Exceptions	Module Watched	
 22m 30s	
 Disconnected Classes Are Useful	Module Watched	
