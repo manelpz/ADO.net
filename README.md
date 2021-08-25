@@ -1,2 +1,2 @@
 # Implementing ADO.NET with C#
- ado pluralsight examples
+ ADO.Net pluralsight examples
