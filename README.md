@@ -11,7 +11,7 @@ Course Overview
 Why You Still Need to Know ADO.NET	Module Watched	
 
 Connecting and Submitting Queries to a Database	Module Watched	
-26m 5s	
+
 Retrieve Data Quickly Using the SqlDataReader	Module Watched	
 18m 30s	
 Handling ADO.NET Exceptions	Module Watched	
