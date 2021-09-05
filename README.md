@@ -8,7 +8,7 @@
  ***
  
  
-Course Overview		
+**Course Overview**		
 
 Why You Still Need to Know ADO.NET	
 
