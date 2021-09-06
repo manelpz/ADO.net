@@ -1,5 +1,5 @@
 # Implementing ADO.NET with C#
- ADO.Net pluralsight code examples
+ pluralsight ADO.Net code examples
  
  
  
